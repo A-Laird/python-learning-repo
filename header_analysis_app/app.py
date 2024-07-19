@@ -40,7 +40,7 @@ def data_cleaner(df):
 
     ethnic_list = list(df['ETHNIC'].unique())
 
-    return df
+    return df, ethnic_list
 
 ################################### plot functions ##########################
 
